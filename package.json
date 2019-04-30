@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node lib/index.js",
-    "heroku-prebuild": "./node_modules/.bin/babel src --out-dir lib"
+    "build": "./node_modules/.bin/babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
