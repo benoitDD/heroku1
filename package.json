@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js"
+    "start": "npm run compile && npm run exec",
+    "compile": "./node_modules/.bin/babel src --out-dir lib",
+    "exec": "node lib/index.js"
   },
   "repository": {
     "type": "git",

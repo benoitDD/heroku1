@@ -1,1 +1,1 @@
-web: npm start && echo "alors *************************************"
+web: npm start
