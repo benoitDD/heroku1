@@ -1,6 +1,6 @@
 const app = require('express')()
 
-const PORT = 5001
+const PORT = process.env.PORT || 5000
 
 app.get('/', (req, res) => {
     res.send('so if gg ??')
